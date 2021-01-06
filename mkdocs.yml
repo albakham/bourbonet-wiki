@@ -1,0 +1,19 @@
+site_name: BourboNet Wiki
+site_description: "Wiki pour l'administration de BourboNet"
+site_url: "https://wiki.bourbo.net"
+repo_url: "https://github.com/albakham/bourbonet-wiki"
+docs_dir: docs/
+
+nav:
+  - Accueil: index.md
+  - Administration:
+    - "Alpine": administration/alpine.md
+    - "Debian": administration/debian.md
+    - "OpenBSD": administration/openbsd.md
+  - Services:
+    - "FireflyIII": services/fireflyiii.md
+    - "Navidrome": services/navidrome.md
+    - "Seafile": services/seafile.md
+
+theme:
+  name: material
